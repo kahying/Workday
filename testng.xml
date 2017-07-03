@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<listeners>
+		<listener class-name="com.dxc.utilities.Listener"></listener>
+	</listeners>
+	<parameter name="random" value="random" />
+	<test name="FirefoxTest">
+		<parameter name="browser" value="Firefox" />
+		<parameter name="environment" value="HPESanboxPreview" />
+
+		<classes>
+			<class name="com.dxc.automationFramework.LoginPageTestNG" />
+		</classes>
+	</test>
+</suite>
