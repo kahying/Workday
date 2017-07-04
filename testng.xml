@@ -10,7 +10,7 @@
 		<parameter name="environment" value="HPESanboxPreview" />
 
 		<classes>
-			<class name="com.dxc.automationFramework.LoginPageTestNG" />
+			<class name="com.dxc.automationFramework.LoginPageTestNG"/>
 		</classes>
 	</test>
 </suite>
