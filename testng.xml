@@ -5,7 +5,7 @@
 		<listener class-name="com.dxc.utilities.Listener"></listener>
 	</listeners>
 	<parameter name="random" value="random" />
-	<parameter name="random2" value="random2" />
+	<parameter name="random2" value="random2"/>
 	<test name="FirefoxTest">
 		<parameter name="browser" value="Firefox" />
 		<parameter name="environment" value="HPESanboxPreview" />
